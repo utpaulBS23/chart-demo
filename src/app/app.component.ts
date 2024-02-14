@@ -151,6 +151,36 @@ export class AppComponent {
     }
   ]
 
+  completionPercentage = [
+    {
+      projectName: 'Cersa',
+      date: new Date('2021-05-09T06:00:00Z'),
+    },
+    {
+      projectName: 'Cersa',
+      date: new Date('2021-05-25T15:00:00Z')
+    }
+  ]
+
+  scatterSeries3: any = [
+    {
+      name: 'Cersa',
+      startDate:  new Date('2021-05-19T06:00:00Z')
+    }
+  ]
+  scatterSeries4: any = [
+    {
+      name: 'Cersa',
+      startDate:  new Date('2021-06-25T15:00:00Z')
+    }
+  ]
+  scatterSeries5: any = [
+    {
+      name: 'Cersa',
+      startDate:  new Date('2021-09-25T15:00:00Z')
+    }
+  ]
+
   scatterSeries2: any = [
     {
       name: 'Erlend Test 09.06',
@@ -185,17 +215,17 @@ export class AppComponent {
     mode: 'X'
   }
 
-  title: string = 'Active Projects';
+  title: string = 'Phases';
 
   markerCircle: MarkerSettingsModel= {
-    width: 10,
-    height: 10,
+    width: 16,
+    height: 16,
     shape:  'Circle'
   }
 
   markerInverseTriangle: MarkerSettingsModel= {
-    width: 10,
-    height: 10,
+    width: 15,
+    height: 15,
     shape: 'VerticalLine',
   }
 }

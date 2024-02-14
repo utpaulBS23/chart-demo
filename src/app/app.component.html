@@ -8,6 +8,34 @@
            width="100%"
            isTransposed='false'>
   <e-series-collection>
+    <e-series [dataSource]='phaseSeries1' type='Line' xName='projectName' yName='date' name='Phase 1' width=15 ></e-series>
+    <e-series [dataSource]='completionPercentage' type='Line' xName='projectName' yName='date' name='Completion' width=6
+              fill="#EE7516"></e-series>
+    <e-series [dataSource]='phaseSeries2' type='Line' xName='projectName' yName='date' name='Phase 2' width=15 ></e-series>
+    <e-series [dataSource]='phaseSeries3' type='Line' xName='projectName' yName='date' name='Phase 3' width=15 ></e-series>
+    <e-series [dataSource]='scatterSeries3'
+              type='Scatter'
+              xName='name'
+              yName='startDate'
+              [marker]='markerCircle'
+              fill="red">
+    </e-series>
+    <e-series [dataSource]='scatterSeries4'
+              type='Scatter'
+              xName='name'
+              yName='startDate'
+              width=2
+              [marker]='markerInverseTriangle'
+              fill="yellow">
+    </e-series>
+    <e-series [dataSource]='scatterSeries5'
+              type='Scatter'
+              xName='name'
+              yName='startDate'
+              width=2
+              [marker]='markerInverseTriangle'
+              fill="yellow">
+    </e-series>
 <!--    <e-series [dataSource]='seriesBarWithSimpleData'-->
 <!--              type='RangeColumn'-->
 <!--              high='endDate'-->
