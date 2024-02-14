@@ -149,6 +149,6 @@ export class AppComponent {
   markerInverseTriangle: any= {
     width: 10,
     height: 10,
-    shape:  'InverseTriangle'
+    shape: 'InvertedTriangle',
   }
 }
