@@ -104,6 +104,13 @@ export class AppComponent {
       startDate:  new Date('2022-08-09T07:00:00.000Z')
     }
   ]
+
+  scatterSeries2: any = [
+    {
+      name: 'Erlend Test 09.06',
+      startDate:  new Date('2022-10-09T07:00:00.000Z')
+    }
+  ]
   xAxis: AxisModel = {
     valueType: 'Category',
     majorGridLines: {width: 2, color: '#2E3A47'},
@@ -137,5 +144,11 @@ export class AppComponent {
     width: 10,
     height: 10,
     shape:  'Circle'
+  }
+
+  markerInverseTriangle: any= {
+    width: 10,
+    height: 10,
+    shape:  'InverseTriangle'
   }
 }

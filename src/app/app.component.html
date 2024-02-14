@@ -25,5 +25,12 @@
               [marker]='markerCircle'
               fill="red">
     </e-series>
+    <e-series [dataSource]='scatterSeries2' type='Scatter'
+              xName='name'
+              yName='startDate'
+              width=2
+              fill="green"
+              [marker]='markerInverseTriangle'>
+    </e-series>
   </e-series-collection>
 </ejs-chart>
