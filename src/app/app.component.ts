@@ -4,7 +4,7 @@ import {
   AxisModel,
   ChartAllModule, ChartAreaModel,
   ChartTheme, DateTimeService,
-  ILoadedEventArgs, MultiLevelLabelService,
+  ILoadedEventArgs, MarkerSettingsModel, MultiLevelLabelService,
   ScrollBarService, TooltipService, TooltipSettingsModel, ZoomService, ZoomSettingsModel
 } from '@syncfusion/ej2-angular-charts';
 import { NgIf } from '@angular/common';
@@ -140,15 +140,15 @@ export class AppComponent {
 
   title: string = 'Active Projects';
 
-  markerCircle: any= {
+  markerCircle: MarkerSettingsModel= {
     width: 10,
     height: 10,
     shape:  'Circle'
   }
 
-  markerInverseTriangle: any= {
+  markerInverseTriangle: MarkerSettingsModel= {
     width: 10,
     height: 10,
-    shape: 'InvertedTriangle',
+    shape: 'VerticalLine',
   }
 }
