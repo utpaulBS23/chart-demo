@@ -33,7 +33,7 @@ export class AppComponent {
   seriesBarWithSimpleData: Timeline[] = [
     {
       name: 'Erlend Test 09.06',
-      endDate: new Date('2023-06-08T06:00:00.000Z'),
+      endDate: new Date('2023-06-14T06:00:00.000Z'),
       startDate:  new Date('2022-06-09T07:00:00.000Z')
     },
     {
@@ -98,6 +98,12 @@ export class AppComponent {
     }
   ]
 
+  scatterSeries: any = [
+    {
+      name: 'Erlend Test 09.06',
+      startDate:  new Date('2022-08-09T07:00:00.000Z')
+    }
+  ]
   xAxis: AxisModel = {
     valueType: 'Category',
     majorGridLines: {width: 2, color: '#2E3A47'},
@@ -126,4 +132,10 @@ export class AppComponent {
   }
 
   title: string = 'Active Projects';
+
+  markerCircle: any= {
+    width: 10,
+    height: 10,
+    shape:  'Circle'
+  }
 }

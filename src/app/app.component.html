@@ -17,5 +17,13 @@
               fill="#75889F"
               xName="name">
     </e-series>
+    <e-series [dataSource]='scatterSeries'
+              type='Scatter'
+              xName='name'
+              yName='startDate'
+              columnSpacing=0.5
+              [marker]='markerCircle'
+              fill="red">
+    </e-series>
   </e-series-collection>
 </ejs-chart>
