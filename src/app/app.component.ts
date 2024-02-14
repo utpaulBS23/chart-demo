@@ -2,18 +2,21 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {
   AxisModel,
-  ChartAllModule, ChartAreaModel, DateTimeService, MarkerSettings, TooltipService,
+  ChartAllModule, ChartAreaModel,
+  ChartTheme, DateTimeService,
+  ILoadedEventArgs, MultiLevelLabelService,
+  ScrollBarService, TooltipService, TooltipSettingsModel, ZoomService, ZoomSettingsModel
 } from '@syncfusion/ej2-angular-charts';
 import { NgIf } from '@angular/common';
 
 interface Timeline {
   name: string;
-  startDate?: Date,
-  endDate?: Date
+  startDate?: Date;
+  endDate?: Date;
 }
 @Component({
   imports: [RouterOutlet, ChartAllModule, NgIf],
-  providers: [ DateTimeService, TooltipService ],
+  providers: [ ScrollBarService, ZoomService, DateTimeService, MultiLevelLabelService, TooltipService, ScrollBarService ],
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
@@ -25,20 +28,6 @@ export class AppComponent {
     border: {
       width: 0
     }
-  }
-
-  xAxis: AxisModel = {
-    valueType: 'DateTime',
-    labelFormat: 'yMMM',
-    intervalType: 'Months',
-    lineStyle: { width: 1 }
-  };
-
-  yAxis: AxisModel = {
-    valueType: 'Category',
-    majorGridLines: { width: 2, color: '#2E3A47' },
-    majorTickLines: { width: 0 },
-    interval: 1
   }
 
   seriesBarWithSimpleData: Timeline[] = [
@@ -109,9 +98,31 @@ export class AppComponent {
     }
   ]
 
-  marker: any = {
-    visible: true,
-    dataLabel:{ visible:true, position:'Outer'}
+  xAxis: AxisModel = {
+    valueType: 'Category',
+    majorGridLines: {width: 2, color: '#2E3A47'},
+    majorTickLines: {width: 0},
+    interval: 1,
+    isInversed: true,
+  }
+
+  yAxis: AxisModel = {
+    valueType: 'DateTime',
+    labelFormat: 'yMMM',
+    intervalType: 'Months',
+    lineStyle: { width: 1 },
+    majorGridLines: { width: 0 },
+    majorTickLines: { width: 1 },
+    opposedPosition: true,
+  }
+
+  tooltip: TooltipSettingsModel = {
+    enable: true
+  };
+
+  zoom: ZoomSettingsModel = {
+    enableSelectionZooming: true,
+    mode: 'X'
   }
 
   title: string = 'Active Projects';

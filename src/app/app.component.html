@@ -1,95 +1,21 @@
-<!--<button (click)="onClickToShowChart()">Show {{ type }} Chart</button>-->
-<!--<ng-container-->
-<!--  *ngIf="type === 'bar'">-->
-<!--  <ejs-chart id='chartcontainer' [chartArea]='chartArea'-->
-<!--             width='100%'-->
-<!--             [title]='title' [primaryXAxis]='primaryXAxis' [primaryYAxis]='primaryYAxis'-->
-<!--             [tooltip]='tooltip' isTransposed='true'-->
-<!--             (load)='load($event)'>-->
-<!--    <e-series-collection>-->
-<!--      <e-series [dataSource]='data' type='RangeColumn' xName='Month' high='CA_HighTemp' low='CA_LowTemp' width=15 tooltipMappingName='Text' [marker]='marker' fill="#EE7516"> </e-series>-->
-<!--      <e-series [dataSource]='data' type='RangeColumn' xName='Month' high='CA1_HighTemp' low='CA1_LowTemp' width=15 tooltipMappingName='Text' [marker]='marker'> </e-series>-->
-<!--      <e-series [dataSource]='data' type='RangeColumn' xName='Month' high='CA2_HighTemp' low='CA2_LowTemp' width=15 tooltipMappingName='Text' [marker]='marker'> </e-series>-->
-<!--      <e-series [dataSource]='series1' type='Scatter' xName='Month' yName='CA_HighTemp' name='18-20 Years' columnSpacing=0.5 [marker]='marker2' fill="red"></e-series>-->
-<!--    </e-series-collection>-->
-<!--  </ejs-chart>-->
-<!--</ng-container>-->
-
-<!--<ng-container *ngIf="type === 'line'">-->
-<!--  <ejs-chart [chartArea]='chartArea'-->
-<!--             [primaryXAxis]='primaryXAxis1'-->
-<!--             [primaryYAxis]='primaryYAxis1'-->
-<!--             width='100%'-->
-<!--             [title]='title' (load)='load($event)'>-->
-<!--    <e-series-collection>-->
-<!--      <e-series [dataSource]='data1' type='Line' xName='x' yName='y' name='Warmest' width=15 > </e-series>-->
-<!--      <e-series [dataSource]='data2' type='Line' xName='x' yName='y' name='Coldest' width=6> </e-series>-->
-<!--      <e-series [dataSource]='data3' type='Line' xName='x' yName='y' name='Coldest' width=6> </e-series>-->
-<!--      <e-series [dataSource]='triangelData' type='Scatter' xName='x' yName='y' width=2 [marker]='triangleMarker'> </e-series>-->
-<!--    </e-series-collection>-->
-<!--  </ejs-chart>-->
-<!--&lt;!&ndash;  <ejs-chart [chartArea]='chartArea' width='100%' id='chartcontainer'&ndash;&gt;-->
-<!--&lt;!&ndash;             [primaryXAxis]='primaryXAxisStepLine'&ndash;&gt;-->
-<!--&lt;!&ndash;             [primaryYAxis]='primaryYAxisStepLine'&ndash;&gt;-->
-<!--&lt;!&ndash;             [tooltip]='tooltipStepLine' (load)='load($event)' [legendSettings]='legendStepLine'>&ndash;&gt;-->
-<!--&lt;!&ndash;    <e-series-collection>&ndash;&gt;-->
-<!--&lt;!&ndash;      <e-series [dataSource]='dataStepLine'  type='MultiColoredLine' xName='Period' yName='AUS_UnemploymentRate' width='5' opacity='1' [marker]='marker' pointColorMapping='color'> </e-series>&ndash;&gt;-->
-<!--&lt;!&ndash;      <e-series [dataSource]='series2' type='Scatter' xName='Period' yName='AUS_UnemploymentRate' columnSpacing=0.5 [marker]='marker2' fill="red"></e-series>&ndash;&gt;-->
-<!--&lt;!&ndash;    </e-series-collection>&ndash;&gt;-->
-<!--&lt;!&ndash;  </ejs-chart>&ndash;&gt;-->
-
-<!--&lt;!&ndash;  <ejs-chart [chartArea]='chartArea'&ndash;&gt;-->
-<!--&lt;!&ndash;             [primaryXAxis]='xAxis'&ndash;&gt;-->
-<!--&lt;!&ndash;             [primaryYAxis]='yAxis'&ndash;&gt;-->
-<!--&lt;!&ndash;             [tooltip]="tooltipRange"&ndash;&gt;-->
-<!--&lt;!&ndash;             #chart&ndash;&gt;-->
-<!--&lt;!&ndash;             width="100%"&ndash;&gt;-->
-<!--&lt;!&ndash;             isTransposed='true'>&ndash;&gt;-->
-<!--&lt;!&ndash;    <e-series-collection>&ndash;&gt;-->
-<!--&lt;!&ndash;      <e-series [dataSource]='activityData1'&ndash;&gt;-->
-<!--&lt;!&ndash;                type='MultiColoredLine'&ndash;&gt;-->
-<!--&lt;!&ndash;                xName='phaseName'&ndash;&gt;-->
-<!--&lt;!&ndash;                yName='startDate'&ndash;&gt;-->
-<!--&lt;!&ndash;                opacity='1' [marker]='marker'&ndash;&gt;-->
-<!--&lt;!&ndash;                pointColorMapping='color'> </e-series>&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;      <e-series [dataSource]='phaseData'&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                type='RangeColumn'&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                high='endDate'&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                low='startDate'&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                xName=name>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;      </e-series>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;    </e-series-collection>&ndash;&gt;-->
-<!--&lt;!&ndash;  </ejs-chart>&ndash;&gt;-->
-<!--</ng-container>-->
-<div class="full_height">
-  <ejs-chart id='chartcontainer' [chartArea]='chartArea'
-             width='100%'
-             [title]='title'
-             [primaryXAxis]='xAxis'
-             [primaryYAxis]='yAxis'
-             isTransposed='true'>
-    <e-series-collection>
-      <e-series [dataSource]='seriesBarWithSimpleData'
-                type='RangeColumn'
-                xName='name'
-                high='starDate'
-                low='endDate'
-                width=10
-                fill="#75889F">
-      </e-series>
-    </e-series-collection>
-  </ejs-chart>
-<!--  <ejs-chart [chartArea]='chartArea'-->
-<!--             [primaryXAxis]='primaryXAxis1'-->
-<!--             [primaryYAxis]='primaryYAxis1'-->
-<!--             width='100%'-->
-<!--             height='100%'-->
-<!--             [title]='title' (load)='load($event)'>-->
-<!--    <e-series-collection>-->
-<!--      <e-series [dataSource]='data1' type='Line' xName='x' yName='y' name='Warmest' width=15 > </e-series>-->
-<!--      <e-series [dataSource]='data2' type='Line' xName='x' yName='y' name='Coldest' width=6> </e-series>-->
-<!--      <e-series [dataSource]='data3' type='Line' xName='x' yName='y' name='Coldest' width=6> </e-series>-->
-<!--      <e-series [dataSource]='triangelData' type='Scatter' xName='x' yName='y' width=2 [marker]='triangleMarker'> </e-series>-->
-<!--    </e-series-collection>-->
-<!--  </ejs-chart>-->
-</div>
+<ejs-chart [chartArea]='chartArea'
+           [primaryXAxis]='xAxis'
+           [primaryYAxis]='yAxis'
+           [tooltip]='tooltip'
+           [zoomSettings]='zoom'
+           [title]="title"
+           #chart
+           width="100%"
+           isTransposed='false'>
+  <e-series-collection>
+    <e-series [dataSource]='seriesBarWithSimpleData'
+              type='RangeColumn'
+              high='endDate'
+              tooltipMappingName='Text'
+              low='startDate'
+              columnWidth="0.4"
+              fill="#75889F"
+              xName="name">
+    </e-series>
+  </e-series-collection>
+</ejs-chart>
