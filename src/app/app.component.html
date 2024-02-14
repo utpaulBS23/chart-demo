@@ -17,20 +17,28 @@
               fill="#75889F"
               xName="name">
     </e-series>
-    <e-series [dataSource]='scatterSeries'
-              type='Scatter'
+    <e-series [dataSource]='seriesBarWithSimpleData2'
+              type='RangeColumn'
               xName='name'
-              yName='startDate'
-              columnSpacing=0.5
-              [marker]='markerCircle'
-              fill="red">
+              high='endDate'
+              fill="#EE7516"
+              columnWidth="0.4"
+              low='startDate'>
     </e-series>
-    <e-series [dataSource]='scatterSeries2' type='Scatter'
-              xName='name'
-              yName='startDate'
-              width=2
-              fill="green"
-              [marker]='markerInverseTriangle'>
-    </e-series>
+<!--    <e-series [dataSource]='scatterSeries'-->
+<!--              type='Scatter'-->
+<!--              xName='name'-->
+<!--              yName='startDate'-->
+<!--              columnSpacing=0.5-->
+<!--              [marker]='markerCircle'-->
+<!--              fill="red">-->
+<!--    </e-series>-->
+<!--    <e-series [dataSource]='scatterSeries2' type='Scatter'-->
+<!--              xName='name'-->
+<!--              yName='startDate'-->
+<!--              width=2-->
+<!--              fill="green"-->
+<!--              [marker]='markerInverseTriangle'>-->
+<!--    </e-series>-->
   </e-series-collection>
 </ejs-chart>

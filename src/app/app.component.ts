@@ -98,6 +98,13 @@ export class AppComponent {
     }
   ]
 
+  seriesBarWithSimpleData2: Timeline[]  = [
+    {
+      name: 'Erlend Test 09.06',
+      endDate: new Date('2024-09-14T06:00:00.000Z'),
+      startDate:  new Date('2023-06-14T06:00:00.000Z')
+    },
+  ]
   scatterSeries: any = [
     {
       name: 'Erlend Test 09.06',
