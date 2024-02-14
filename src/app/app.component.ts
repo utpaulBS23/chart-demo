@@ -112,12 +112,52 @@ export class AppComponent {
     }
   ]
 
+  phaseSeries1 = [
+    {
+      projectName: 'Cersa',
+      name: 'Phase 1',
+      date: new Date('2021-05-09T06:00:00Z'),
+    },
+    {
+      projectName: 'Cersa',
+      name: 'Phase 1',
+      date: new Date('2021-06-25T15:00:00Z')
+    }
+  ]
+
+  phaseSeries2 = [
+    {
+      projectName: 'Cersa',
+      name: 'Phase 2',
+      date: new Date('2021-06-25T15:00:00Z'),
+    },
+    {
+      projectName: 'Cersa',
+      name: 'Phase 2',
+      date: new Date('2021-09-25T15:00:00Z')
+    }
+  ]
+
+  phaseSeries3 = [
+    {
+      projectName: 'Cersa',
+      name: 'Phase 3',
+      date: new Date('2021-09-25T15:00:00Z'),
+    },
+    {
+      projectName: 'Cersa',
+      name: 'Phase 3',
+      date: new Date('2021-11-25T15:00:00Z')
+    }
+  ]
+
   scatterSeries2: any = [
     {
       name: 'Erlend Test 09.06',
       startDate:  new Date('2022-10-09T07:00:00.000Z')
     }
   ]
+
   xAxis: AxisModel = {
     valueType: 'Category',
     majorGridLines: {width: 2, color: '#2E3A47'},
