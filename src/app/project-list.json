@@ -1,0 +1,122 @@
+[
+  {
+    "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+    "startDate": "2021-08-23T02:00:00.000Z",
+    "endDate": "2035-09-11T11:00:00.000Z",
+    "name": "Cerisa test",
+    "country": "NO",
+    "baselineStartDate": "2023-05-11T02:00:00.000Z",
+    "baselineEndDate": "2023-05-11T11:00:00.000Z",
+    "spudDate": "2023-05-10T18:00:00.000Z",
+    "Progress": 0,
+    "Indicators": null
+  },
+  {
+    "id": "0aa19d2c-b282-4ce8-a36b-58bef2a22897",
+    "startDate": "2023-03-13T02:00:00.000Z",
+    "endDate": "2024-03-15T11:00:00.000Z",
+    "name": "Uk test case",
+    "country": "Uk",
+    "baselineStartDate": null,
+    "baselineEndDate": null,
+    "spudDate": null,
+    "Progress": 0,
+    "Indicators": null
+  },
+  {
+    "id": "1bd1d3cd-9e54-43ba-b74f-c821f4daf5b5",
+    "startDate": "2023-03-13T02:00:00.000Z",
+    "endDate": "2024-07-11T11:00:00.000Z",
+    "name": "Erlend UK test 4",
+    "country": "Uk",
+    "baselineStartDate": "2023-09-20T02:00:00.000Z",
+    "baselineEndDate": "2023-09-21T11:00:00.000Z",
+    "spudDate": "2023-09-19T18:00:00.000Z",
+    "Progress": 0,
+    "Indicators": null
+  },
+  {
+    "id": "816be293-012b-41f5-80fc-d5ba837c369c",
+    "startDate": "2023-12-01T02:00:00.000Z",
+    "endDate": "2027-02-03T10:00:00.000Z",
+    "name": "Test project with template",
+    "country": "ID",
+    "baselineStartDate": null,
+    "baselineEndDate": null,
+    "spudDate": null,
+    "Progress": 0,
+    "Indicators": null
+  },
+  {
+    "id": "0d09c677-7917-40e7-9eb6-5330fd5662e5",
+    "startDate": "2023-12-21T02:00:00.000Z",
+    "endDate": "2025-07-04T11:00:00.000Z",
+    "name": "Test project with template 2",
+    "country": "NO",
+    "baselineStartDate": null,
+    "baselineEndDate": null,
+    "spudDate": null,
+    "Progress": 0,
+    "Indicators": null
+  },
+  {
+    "id": "4854d8d4-9a85-4fcf-8883-c34c4be1d160",
+    "startDate": "2023-07-13T02:00:00.000Z",
+    "endDate": "2033-01-12T11:00:00.000Z",
+    "name": "Project with 'Existing project'",
+    "country": "NO",
+    "baselineStartDate": null,
+    "baselineEndDate": null,
+    "spudDate": null,
+    "Progress": 0,
+    "Indicators": null
+  },
+  {
+    "id": "9105f7c8-ddcf-41f2-8fb1-cb72146df08a",
+    "startDate": "2023-10-09T02:00:00.000Z",
+    "endDate": "2033-07-05T11:00:00.000Z",
+    "name": " Existing Project Test 01",
+    "country": "-",
+    "baselineStartDate": null,
+    "baselineEndDate": null,
+    "spudDate": null,
+    "Progress": 0,
+    "Indicators": null
+  },
+  {
+    "id": "5f49256b-6900-4a1a-b02c-68333bad4ff9",
+    "startDate": "2023-10-11T02:00:00.000Z",
+    "endDate": "2024-06-25T09:00:00.000Z",
+    "name": " Existing Project Test 07",
+    "country": "-",
+    "baselineStartDate": null,
+    "baselineEndDate": null,
+    "spudDate": null,
+    "Progress": 0,
+    "Indicators": null
+  },
+  {
+    "id": "4a11c455-92f6-4ce5-8643-9d4ea0174282",
+    "startDate": "2023-08-31T02:00:00.000Z",
+    "endDate": "2026-08-13T09:00:00.000Z",
+    "name": "T7 Project",
+    "country": "-",
+    "baselineStartDate": null,
+    "baselineEndDate": null,
+    "spudDate": null,
+    "Progress": 0,
+    "Indicators": null
+  },
+  {
+    "id": "ed68ebc5-bdaa-45ac-8c6b-bb476594827c",
+    "startDate": "2023-09-01T07:00:00.000Z",
+    "endDate": "2026-11-04T11:00:00.000Z",
+    "name": "Vår test project",
+    "country": "-",
+    "baselineStartDate": null,
+    "baselineEndDate": null,
+    "spudDate": null,
+    "Progress": 0,
+    "Indicators": null
+  }
+]

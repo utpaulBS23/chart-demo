@@ -1,0 +1,1359 @@
+[
+  {
+    "id": "857b8274-82ca-4222-a40e-3fef4ad93da9",
+    "name": "PLANC Close Out",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 139,
+    "reference": "O5-0",
+    "description": "Objectives\nFormal closeout of all PLANC processes and procedures, including but not limited to; PONs/WONs, Chemical permits, EEMS reports, etc.",
+    "type": "Task",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "f05f495a-ace2-43ae-9c82-56419f6f0932",
+          "name": "Director Drilling and Wells (TA0)",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "f022b9f8-b01a-4830-8f40-c6868a0eeab8",
+          "name": "Partners",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:27.7386837Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.3743411Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801509c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "040869d7-d1d0-4d59-afcf-e50f0a64cd44",
+    "name": "After Action workshop and complete Lessons Learned Register",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 135,
+    "reference": "O1-0",
+    "description": "Key deliverable for Operate Phase.\n\nCreate well lessons learned database. The database should include a description of the lesson learned/opportunity, the potential risk/impact, and corrective action(s) associated to prevent re-occurrence.",
+    "type": "Meeting",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "fbcce4e6-f7bf-470f-86c4-b322ef966791",
+          "name": "Drilling Superintendent (TA2)",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "383a6add-9af3-407b-9f0a-059275e9d56c",
+          "name": "LCWE",
+          "type": "Role"
+        },
+        {
+          "id": "c58c5b78-aa6e-426e-8b1f-b642d5bf3fbd",
+          "name": "Operations Engineer",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:27.7386837Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:02.4808231Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d8013f9c-0000-0d00-0000-655f50ce0000\""
+  },
+  {
+    "id": "4082ba2e-9f55-43ae-b6fb-c75e80ef72aa",
+    "name": "Well Integrity Plan",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 138,
+    "reference": "O4-0",
+    "description": "A agreement between the producing Asset and Drilling and Wells that covers:\n- How to ensure well integrity?\n- Well integrity tests and schedule\n- Well integrity review frequency\n- Well integrity data recording etc.",
+    "type": "Product",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "e2c06e31-790a-414a-9014-bae43c411382",
+          "name": "Principal Engineer - Well integrity (TA1)",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [
+      {
+        "id": "60eeaf08-0864-4cd1-a352-5bdaaad832d5",
+        "name": "Integrity TA1"
+      },
+      {
+        "id": "799727b7-bef2-4b77-a67c-de96dd2852d7",
+        "name": "TA0"
+      }
+    ],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:27.7390775Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:02.7641457Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801489c-0000-0d00-0000-655f50ce0000\""
+  },
+  {
+    "id": "9fcafc80-cc8f-4994-a973-aea872419b6d",
+    "name": "Subsurface EOWR(s)",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 137,
+    "reference": "O3-0",
+    "description": "Key deliverable for Operate Phase.\n\nFinal detailed subsurface End of Well document that will reflect the following;\n\n- Well  actual vs. planned\n- Well final status diagram vs. planned\n- Actual lithology and tops vs. planned\n- Achievements and preliminary results of formation evaluation programme (RFT, core, fluids, PVT, etc.)\n- Subsurface hazards and lessons learned\n- Downhole surprises and learnings\n- Sampling results\n- Presence of acidic fluids, etc.",
+    "type": "Product",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "e6ac2cfe-a893-44f3-9574-b9433ec43803",
+          "name": "Subsurface Team Leader",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "970d7568-c86a-4dbb-bd74-4e693976a324",
+          "name": "Geologist/Petrophysicist",
+          "type": "Role"
+        },
+        {
+          "id": "fba9ebc2-a520-4602-9ec5-215210d80f0b",
+          "name": "Operations Geologist",
+          "type": "Role"
+        },
+        {
+          "id": "a2e35826-d9d5-4030-915c-6b7490f901bd",
+          "name": "Reservoir Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "6deb8d1b-b78b-4a8b-beaf-90444252b50f",
+          "name": "Geophysicist",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:27.7390818Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:02.6732433Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801459c-0000-0d00-0000-655f50ce0000\""
+  },
+  {
+    "id": "ecd81350-ffe4-4cea-af51-dd262bf30468",
+    "name": "Wells EOWR(s)",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 136,
+    "reference": "O2-0",
+    "description": "Key deliverable for Operate Phase.\nFinal detailed End of Well Report document that should include the following information;\n\n- Final well status diagram\n- Final well definitive survey and directional profile\n- Final well cost and duration vs. AFE\n- HSE statistics and achievements\n- Well  actual vs. planned\n- Performance benchmarking (Rushmore)\n- Detailed section by section technical review with key achievements, risks and lessons learned\n- Supplementary EOW reports or attachments from key service providers: drilling fluids, directional, cementing, etc.\n- Lessons Learned and recommendations going forward.",
+    "type": "Product",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "consulted": [
+        {
+          "id": "fba9ebc2-a520-4602-9ec5-215210d80f0b",
+          "name": "Operations Geologist",
+          "type": "Role"
+        },
+        {
+          "id": "ecdeba75-2c47-4af3-bd92-4b6726b0b1b4",
+          "name": "Wells Project Manager (TA2)",
+          "type": "Role"
+        },
+        {
+          "id": "fbcce4e6-f7bf-470f-86c4-b322ef966791",
+          "name": "Drilling Superintendent (TA2)",
+          "type": "Role"
+        },
+        {
+          "id": "383a6add-9af3-407b-9f0a-059275e9d56c",
+          "name": "LCWE",
+          "type": "Role"
+        },
+        {
+          "id": "c58c5b78-aa6e-426e-8b1f-b642d5bf3fbd",
+          "name": "Operations Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "6de0f587-6e59-42f3-9955-f257a5f0ff74",
+          "name": "Finance",
+          "type": "Role"
+        },
+        {
+          "id": "f022b9f8-b01a-4830-8f40-c6868a0eeab8",
+          "name": "Partners",
+          "type": "Role"
+        }
+      ],
+      "accountable": [
+        {
+          "id": "d2d69a39-7e91-4395-87be-48abaec009a0",
+          "name": "Head of Well Engineering (TA1)",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [
+      {
+        "id": "4836f0d6-6ddb-4ae7-b871-66cc93e1537f",
+        "name": "Front end TA1"
+      },
+      {
+        "id": "cb4dd72d-b909-4361-9329-872a07d9521d",
+        "name": "Front end TA2"
+      },
+      {
+        "id": "833fc592-176d-46f2-b814-7253d1976a73",
+        "name": "Execution TA1"
+      },
+      {
+        "id": "a8c052e0-2d13-4b4b-a8af-5fd2fd51e3e2",
+        "name": "Execution TA2"
+      },
+      {
+        "id": "60eeaf08-0864-4cd1-a352-5bdaaad832d5",
+        "name": "Integrity TA1"
+      },
+      {
+        "id": "799727b7-bef2-4b77-a67c-de96dd2852d7",
+        "name": "TA0"
+      }
+    ],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:27.7393866Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:02.5568121Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801419c-0000-0d00-0000-655f50ce0000\""
+  },
+  {
+    "id": "4ec487f6-3b11-406d-b5cb-64bd30c905c1",
+    "name": "Wrap Up Meeting with Vendors",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 140,
+    "reference": "O6-0",
+    "description": "Hold a wrap up meeting with all the major service providers to review the final operations conducted vs. original plan, non-productive time, failures, incidents, HSE and contract performance, any lessons learned and improvements going forward. The key service companies that shall attend the meeting and provide their presentations include;\n\n- Drilling Contractor\n- Directional Drilling and MWD/LWD\n- Cementing\n- Drilling Fluids\n- Wireline\n- Mudlogging\n- Coring\n- Tubular running service, etc.",
+    "type": "Meeting",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "ecdeba75-2c47-4af3-bd92-4b6726b0b1b4",
+          "name": "Wells Project Manager (TA2)",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "383a6add-9af3-407b-9f0a-059275e9d56c",
+          "name": "LCWE",
+          "type": "Role"
+        },
+        {
+          "id": "c58c5b78-aa6e-426e-8b1f-b642d5bf3fbd",
+          "name": "Operations Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "f022b9f8-b01a-4830-8f40-c6868a0eeab8",
+          "name": "Partners",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:27.9879993Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.3743071Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801519c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "393313bb-b970-438e-8a16-ef4b7395c901",
+    "name": "Contract Incentive Scheme Close out",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 141,
+    "reference": "O7-0",
+    "description": "Close out front end contract incentive scheme (Class 2 -> AFE)\nClose out execution contract incentive scheme (AFE -> actual)",
+    "type": "Task",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "consulted": [
+        {
+          "id": "ecdeba75-2c47-4af3-bd92-4b6726b0b1b4",
+          "name": "Wells Project Manager (TA2)",
+          "type": "Role"
+        },
+        {
+          "id": "6de0f587-6e59-42f3-9955-f257a5f0ff74",
+          "name": "Finance",
+          "type": "Role"
+        },
+        {
+          "id": "9c8e7e20-7620-4314-b883-3dc2b69abc32",
+          "name": "Global Assurance Team",
+          "type": "Role"
+        },
+        {
+          "id": "e33b3386-e948-4331-a747-d4c112b042b8",
+          "name": "HSEQ",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:28.2327125Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.3879547Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801529c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "4eb6a574-27ee-4d50-84fe-e3cb6782ab23",
+    "name": "Contract/PO Close Out",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 142,
+    "reference": "O8-0",
+    "description": "All the documentation required under the terms of the contract(s) should be reviewed to ensure that it is correct and up to date, final accounts agreed and concluded prior to releasing the final payments and issuing final certificates. Following issue of the Final Acceptance Certificate, provided that the contractor(s) and/or vendors(s) have satisfied all their contractual obligations under the scope of the contract(s) and PO(s), their contract(s) are closed out.\n\nContract close out does not release the contractor or vendor from its warranty or any other obligations stipulated within the contract.",
+    "type": "Task",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "ecdeba75-2c47-4af3-bd92-4b6726b0b1b4",
+          "name": "Wells Project Manager (TA2)",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        },
+        {
+          "id": "6de0f587-6e59-42f3-9955-f257a5f0ff74",
+          "name": "Finance",
+          "type": "Role"
+        },
+        {
+          "id": "e33b3386-e948-4331-a747-d4c112b042b8",
+          "name": "HSEQ",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "9c8e7e20-7620-4314-b883-3dc2b69abc32",
+          "name": "Global Assurance Team",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:28.4776917Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.4037124Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801589c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "f8171454-21db-479d-be2f-a75b5d40bc0f",
+    "name": "Final Well Cost Reconciliation",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 143,
+    "reference": "O9-0",
+    "description": "Key deliverable for Operate Phase.\nFinal cost reconciliation process and surplus stock identification. The cost engineer is responsible for completing the project/well cost reconciliation and presenting the results and any LL to the wells, subsurface, contract and procurement teams. Final cost data should be used to update current well costing models.",
+    "type": "Task",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "ecdeba75-2c47-4af3-bd92-4b6726b0b1b4",
+          "name": "Wells Project Manager (TA2)",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        },
+        {
+          "id": "e33b3386-e948-4331-a747-d4c112b042b8",
+          "name": "HSEQ",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "6de0f587-6e59-42f3-9955-f257a5f0ff74",
+          "name": "Finance",
+          "type": "Role"
+        },
+        {
+          "id": "9c8e7e20-7620-4314-b883-3dc2b69abc32",
+          "name": "Global Assurance Team",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:28.6909805Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.3941228Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801559c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "aadd65b5-5263-4313-9ea7-3e84f65841b2",
+    "name": "Coordinate final EOWR with JV Partners",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 144,
+    "reference": "O10-0",
+    "description": "The Project Manager is responsible to ensure that the final EOWRs are distributed to the JV partners on a timely manner.",
+    "type": "Task",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "e6ac2cfe-a893-44f3-9574-b9433ec43803",
+          "name": "Subsurface Team Leader",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [
+      {
+        "id": "0b0d3828-8951-4a86-844d-573bfb5543aa",
+        "name": "SME Casing and Tubing design"
+      }
+    ],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:28.7189835Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.3927929Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801539c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "c81836d9-d494-4dd9-b6a9-13a1c2894aa9",
+    "name": "Wrap Up Meeting with JV Partners",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 145,
+    "reference": "O11-0",
+    "description": "Final well/project wrap up meeting with JV partnership representative to cover;\n\n- Well  planned vs. actual\n- Well delivery performance and cost:  planned vs. actual\n- HSE and drilling/completion/well test technical performance: planned vs. actual\n- Key lessons learned and improvements going forward, etc.",
+    "type": "Meeting",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "e6ac2cfe-a893-44f3-9574-b9433ec43803",
+          "name": "Subsurface Team Leader",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [
+      {
+        "id": "0b0d3828-8951-4a86-844d-573bfb5543aa",
+        "name": "SME Casing and Tubing design"
+      }
+    ],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:28.8277862Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.4869195Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801599c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "403f5675-4d83-43c0-897a-f466a4041daa",
+    "name": "Conduct JV Audit",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 146,
+    "reference": "O12-0",
+    "description": "Project Manager and Cost Engineer to coordinate and arrange if a request for audit is received from JV partner(s). The project team shall provide support as necessary to enable the JV audit team to complete the task.",
+    "type": "Task",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "fbcce4e6-f7bf-470f-86c4-b322ef966791",
+          "name": "Drilling Superintendent (TA2)",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        },
+        {
+          "id": "6de0f587-6e59-42f3-9955-f257a5f0ff74",
+          "name": "Finance",
+          "type": "Role"
+        },
+        {
+          "id": "9c8e7e20-7620-4314-b883-3dc2b69abc32",
+          "name": "Global Assurance Team",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [
+      {
+        "id": "0b0d3828-8951-4a86-844d-573bfb5543aa",
+        "name": "SME Casing and Tubing design"
+      }
+    ],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:28.9646236Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.6779121Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d8015b9c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "f01fa88d-ea95-43ed-9c61-bfa47678d21e",
+    "name": "Well/Project Review Note",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 147,
+    "reference": "O13-0",
+    "description": "Close out drilling and completion activities on the well.\n\nFinal assurance that:\n- EOWR for Drilling and Subsurface is signed off\n- Final Well Cost is reconciled and signed off\n- Contract close out, no outstanding issues or invoices\n- PLANC has been closed out\n- No JV actions required for Drilling and Wells",
+    "type": "Product",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "d2d69a39-7e91-4395-87be-48abaec009a0",
+          "name": "Head of Well Engineering (TA1)",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "ecdeba75-2c47-4af3-bd92-4b6726b0b1b4",
+          "name": "Wells Project Manager (TA2)",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [
+      {
+        "id": "0b0d3828-8951-4a86-844d-573bfb5543aa",
+        "name": "SME Casing and Tubing design"
+      },
+      {
+        "id": "4836f0d6-6ddb-4ae7-b871-66cc93e1537f",
+        "name": "Front end TA1"
+      },
+      {
+        "id": "833fc592-176d-46f2-b814-7253d1976a73",
+        "name": "Execution TA1"
+      },
+      {
+        "id": "799727b7-bef2-4b77-a67c-de96dd2852d7",
+        "name": "TA0"
+      }
+    ],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:28.9973401Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.6783192Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d8015d9c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "c7a3fa2a-e625-4a19-9b61-0ffb749933d2",
+    "name": "Close out Well Delivery Process",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 148,
+    "reference": "O14-0",
+    "description": "At the end of the project/well, before the project team is demobilized, the Wells Project Manager shall ensure that all the lessons learned on the project are identified and captured in a manner that enables them to be used on future projects. The Wells Project Manager shall ensure that the well folder on the portal is up-to-date with all the final, signed paperwork in place including EOWRs and well handover certificates etc.",
+    "type": "Task",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {
+      "accountable": [
+        {
+          "id": "d2d69a39-7e91-4395-87be-48abaec009a0",
+          "name": "Head of Well Engineering (TA1)",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "ecdeba75-2c47-4af3-bd92-4b6726b0b1b4",
+          "name": "Wells Project Manager (TA2)",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "be21168a-fb9d-4393-8166-a5c4c2f653f7",
+          "name": "Logistics Coordinator",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:29.1009738Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.6898055Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801629c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "60d71c39-fa23-4334-a0c0-a42899cbe8ba",
+    "name": "Recommendation to Intervene",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 149,
+    "reference": "O15-0",
+    "description": "Initiation note from Asset to Drilling & Wells to start working on well intervention or P&A scope of one or more wells.\nThe document should cover as a minimum:\n- Current Well Status Diagram\n- Licence obligations\n- Defined well/project objectives\n- High Level data acquisition plan\n- Reservoir Temperature and Pressure\n- Environmental issues\n- Results of any supportive technical studies conducted\n- Key risks and uncertainties present in the well/project at this stage.\n\nThis note should kick off a new Well Delivery Plan cycle, from Feasibility to Operate",
+    "type": "Task",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2030-11-23T07:00:00Z",
+      "endDate": "2031-02-20T16:00:00Z",
+      "duration": 90
+    },
+    "progress": 0,
+    "raci": {},
+    "assurance": [],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:29.2045582Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.6870009Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d8015f9c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "4c992060-c14d-4c97-a2c9-f12459a0ea16",
+    "name": "Well Handover from Asset to Drilling and Wells",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 150,
+    "reference": "O16-0",
+    "description": "",
+    "type": "Task",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2031-02-21T07:00:00Z",
+      "endDate": "2031-02-21T16:00:00Z",
+      "duration": 1
+    },
+    "progress": 0,
+    "raci": {},
+    "assurance": [],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:29.237457Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.6892024Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801609c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "fce6721f-1422-4afa-bce4-783791eb2ee4",
+    "name": "t45tNew Activity",
+    "activityId": 156,
+    "description": "",
+    "type": "Task",
+    "mandatory": false,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2029-11-18T07:00:00Z",
+      "endDate": "2029-11-18T16:00:00Z",
+      "duration": 1
+    },
+    "progress": 0,
+    "raci": {},
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "created": "2023-02-08T13:46:40.3339806Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.689524Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801619c-0000-0d00-0000-655f50cf0000\""
+  },
+  {
+    "id": "51c77975-8c18-4d0d-9566-f1b25ee69a98",
+    "name": "New Activity5t45t",
+    "activityId": 157,
+    "type": "Task",
+    "mandatory": false,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+      "name": "Operate"
+    },
+    "planned": {
+      "startDate": "2029-11-18T07:00:00Z",
+      "endDate": "2029-11-18T16:00:00Z",
+      "duration": 1
+    },
+    "progress": 0,
+    "raci": {},
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "created": "2023-02-08T13:47:06.7015356Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2023-11-23T13:17:03.7832437Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"d801639c-0000-0d00-0000-655f50cf0000\""
+  }
+]

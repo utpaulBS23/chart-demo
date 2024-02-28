@@ -1,72 +1,60 @@
-<ejs-chart [chartArea]='chartArea'
-           [primaryXAxis]='xAxis'
-           [primaryYAxis]='yAxis'
-           [tooltip]='tooltip'
-           [zoomSettings]='zoom'
-           [title]="title"
-           #chart
-           width="100%"
-           isTransposed='false'>
-  <e-series-collection>
-    <e-series [dataSource]='phaseSeries1' type='Line' xName='projectName' yName='date' name='Phase 1' width=15 ></e-series>
-    <e-series [dataSource]='completionPercentage' type='Line' xName='projectName' yName='date' name='Completion' width=6
-              fill="#EE7516"></e-series>
-    <e-series [dataSource]='phaseSeries2' type='Line' xName='projectName' yName='date' name='Phase 2' width=15 ></e-series>
-    <e-series [dataSource]='phaseSeries3' type='Line' xName='projectName' yName='date' name='Phase 3' width=15 ></e-series>
-    <e-series [dataSource]='scatterSeries3'
-              type='Scatter'
-              xName='name'
-              yName='startDate'
-              [marker]='markerCircle'
-              fill="red">
-    </e-series>
-    <e-series [dataSource]='scatterSeries4'
-              type='Scatter'
-              xName='name'
-              yName='startDate'
-              width=2
-              [marker]='markerInverseTriangle'
-              fill="yellow">
-    </e-series>
-    <e-series [dataSource]='scatterSeries5'
-              type='Scatter'
-              xName='name'
-              yName='startDate'
-              width=2
-              [marker]='markerInverseTriangle'
-              fill="yellow">
-    </e-series>
-<!--    <e-series [dataSource]='seriesBarWithSimpleData'-->
-<!--              type='RangeColumn'-->
-<!--              high='endDate'-->
-<!--              tooltipMappingName='Text'-->
-<!--              low='startDate'-->
-<!--              columnWidth="0.4"-->
-<!--              fill="#75889F"-->
-<!--              xName="name">-->
-<!--    </e-series>-->
-<!--    <e-series [dataSource]='seriesBarWithSimpleData2'-->
-<!--              type='RangeColumn'-->
-<!--              xName='name'-->
-<!--              high='endDate'-->
-<!--              fill="#EE7516"-->
-<!--              columnWidth="0.4"-->
-<!--              low='startDate'>-->
-<!--    </e-series>-->
-<!--    <e-series [dataSource]='scatterSeries'-->
-<!--              type='Scatter'-->
-<!--              xName='name'-->
-<!--              yName='startDate'-->
-<!--              columnSpacing=0.5-->
-<!--              [marker]='markerCircle'-->
-<!--              fill="red">-->
-<!--    </e-series>-->
-<!--    <e-series [dataSource]='scatterSeries2' type='Scatter'-->
-<!--              xName='name'-->
-<!--              yName='startDate'-->
-<!--              width=2-->
-<!--              fill="green"-->
-<!--              [marker]='markerInverseTriangle'>-->
-<!--    </e-series>-->
-  </e-series-collection>
-</ejs-chart>
+<div class="height">
+  <ejs-chart [chartArea]='chartArea'
+             [primaryXAxis]='xAxis'
+             [primaryYAxis]='yAxis'
+             [tooltip]='tooltip'
+             [zoomSettings]='zoom'
+             [title]="title"
+             height="100%"
+             #chart
+             isTransposed='false'>
+    <e-series-collection>
+      <e-series [dataSource]='datasource'
+                type='RangeColumn'
+                high='endDate'
+                low='startDate'
+                columnWidth="0.4"
+                pointColorMapping= 'color'
+                name='Project'
+                xName="name">
+      </e-series>
+
+      <ng-container *ngFor="let item of datasource">
+        <ng-container *ngFor="let phaseData of item?.phases; trackBy:identify">
+          {{ phaseData }}
+          <e-series [dataSource]='phaseData.dateRange'
+                    type='Line'
+                    xName='projectName'
+                    yName='date'
+                    width=14
+                    opacity= 0.4
+                    [name]='phaseData.name'>
+          </e-series>
+          <ng-container *ngIf="phaseData?.progressRange">
+            <e-series [dataSource]='phaseData?.progressRange'
+                      type='Line'
+                      xName='projectName'
+                      yName='date'
+                      width=6>
+            </e-series>
+          </ng-container>
+          <e-series [dataSource]='phaseData?.dateRange'
+                    type='Scatter'
+                    xName='projectName'
+                    yName='date'
+                    width=2
+                    [marker]='markerVerticalLine'
+                    fill="yellow">
+          </e-series>
+        </ng-container>
+        <e-series [dataSource]='item.milestones'
+                  type='Scatter'
+                  xName='projectName'
+                  yName='startDate'
+                  [marker]='markerCircle'
+                  fill="#52CB99">
+        </e-series>
+      </ng-container>
+    </e-series-collection>
+  </ejs-chart>
+</div>

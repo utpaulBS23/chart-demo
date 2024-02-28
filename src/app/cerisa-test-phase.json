@@ -1,0 +1,180 @@
+[
+  {
+    "id": "26019147-8737-42b6-9b5e-2fbe41becb68",
+    "prefix": "F",
+    "name": "Feasability",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "48a93d6e-da66-4d30-9722-abb5eb3f9a13",
+          "name": "Feasability"
+        }
+      }
+    },
+    "activityId": 0,
+    "type": "Task",
+    "mandatory": false,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "planned": {
+      "startDate": "2021-08-21T02:00:00Z",
+      "endDate": "2035-09-11T11:00:00Z",
+      "duration": 5135
+    },
+    "progress": 62,
+    "dependencies": [],
+    "raci": {},
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "created": "2022-06-23T06:39:11.7342476Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2024-01-31T10:54:20.1534649Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"ee05407d-0000-0d00-0000-65ba26dc0000\""
+  },
+  {
+    "id": "65d19a8c-2d37-4187-8da6-597736a248d1",
+    "prefix": "D",
+    "name": "Concept",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "c54396b7-f7d4-4830-a447-36b7c4d4d380",
+          "name": "Detailed Engineering"
+        }
+      }
+    },
+    "activityId": 2,
+    "type": "Task",
+    "mandatory": false,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "planned": {
+      "startDate": "2028-05-09T06:00:00Z",
+      "endDate": "2029-06-25T15:00:00Z"
+    },
+    "progress": 29,
+    "dependencies": [],
+    "raci": {},
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "created": "2022-06-23T06:39:11.7212773Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2024-02-15T07:54:37.952637Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"03007e1b-0000-0d00-0000-65cdc33d0000\""
+  },
+  {
+    "id": "ff76c077-a982-4779-8bff-3d8ddc0e0a8e",
+    "prefix": "E",
+    "name": "Execute",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "d794fd24-5022-4efb-a921-72976b27c3af",
+          "name": "Execute"
+        }
+      }
+    },
+    "activityId": 3,
+    "type": "Task",
+    "mandatory": false,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "planned": {
+      "startDate": "2029-06-19T06:00:00Z",
+      "endDate": "2029-10-28T16:00:00Z",
+      "duration": 132
+    },
+    "progress": 17,
+    "dependencies": [],
+    "raci": {},
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "created": "2022-06-23T06:39:11.7525308Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2024-01-15T12:57:02.5100171Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"6e05506c-0000-0d00-0000-65a52b9e0000\""
+  },
+  {
+    "id": "7df38da3-9eea-4abb-812c-ae7464863fa2",
+    "prefix": "O",
+    "name": "Operate",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "a7215ea5-e6ce-4dda-84e5-82ba8f76108e",
+          "name": "Operate"
+        }
+      }
+    },
+    "activityId": 4,
+    "type": "Task",
+    "mandatory": false,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "planned": {
+      "startDate": "2029-11-18T07:00:00Z",
+      "endDate": "2031-02-21T16:00:00Z",
+      "duration": 461
+    },
+    "progress": 0,
+    "raci": {},
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "created": "2022-06-23T06:39:11.7528946Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2024-01-15T12:57:02.5574482Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"6e05516c-0000-0d00-0000-65a52b9e0000\""
+  }
+]

@@ -1,0 +1,670 @@
+[
+  {
+    "id": "e290eb77-bbc7-432b-b377-4b9656593bcb",
+    "name": "Well/Project Initation Note document update test",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "48a93d6e-da66-4d30-9722-abb5eb3f9a13",
+          "name": "Feasability"
+        }
+      }
+    },
+    "activityId": 3,
+    "reference": "F3-0",
+    "description": "<p>Key deliverable for the Feasibility Phase, as this note forms the initial definition of the drilling and wells scope and basis for preliminary well designs, time, and cost estimates.\n\nThe document should cover as a minimum:\n- Decision makers and assurance\n- Field/well location and water depth\n- Licence obligations\n- Defined well/project objectives\n- High Level data acquisition plan\n- Preliminary geological information/formation tops\n- Offset wells\n- Reservoir Temperature and Pressure\n- Anticipated spud depth\n- Environmental issues\n- Preliminary formation evaluation/completion requirements\n- Results of any supportive technical studies conducted\n- Key risks and uncertainties present in the well/project at this stage. h</p>",
+    "type": "Product",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "26019147-8737-42b6-9b5e-2fbe41becb68",
+      "name": "Feasability"
+    },
+    "planned": {
+      "startDate": "2023-08-30T07:00:00Z",
+      "endDate": "2029-09-11T11:00:00Z",
+      "duration": 2204.5
+    },
+    "actual": {
+      "endDate": "2024-01-04T08:48:39.604Z"
+    },
+    "progress": 100,
+    "next": {
+      "id": "194e17e9-d448-40fd-9ad0-2d03086561f6",
+      "name": "Identification of any additional Feasibility/Technical Subsurface Studies update"
+    },
+    "approval": [],
+    "raci": {
+      "accountable": [
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "f05f495a-ace2-43ae-9c82-56419f6f0932",
+          "name": "Director Drilling and Wells (TA0)",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "e6ac2cfe-a893-44f3-9574-b9433ec43803",
+          "name": "Subsurface Team Leader",
+          "type": "Role"
+        },
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "f05f495a-ace2-43ae-9c82-56419f6f0932",
+          "name": "Director Drilling and Wells (TA0)",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "970d7568-c86a-4dbb-bd74-4e693976a324",
+          "name": "Geologist/Petrophysicist",
+          "type": "Role"
+        },
+        {
+          "id": "fba9ebc2-a520-4602-9ec5-215210d80f0b",
+          "name": "Operations Geologist",
+          "type": "Role"
+        },
+        {
+          "id": "a2e35826-d9d5-4030-915c-6b7490f901bd",
+          "name": "Reservoir Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "6deb8d1b-b78b-4a8b-beaf-90444252b50f",
+          "name": "Geophysicist",
+          "type": "Role"
+        },
+        {
+          "id": "383a6add-9af3-407b-9f0a-059275e9d56c",
+          "name": "LCWE",
+          "type": "Role"
+        },
+        {
+          "id": "e33b3386-e948-4331-a747-d4c112b042b8",
+          "name": "HSEQ",
+          "type": "Role"
+        }
+      ],
+      "informed": [
+        {
+          "id": "f022b9f8-b01a-4830-8f40-c6868a0eeab8",
+          "name": "Partners",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [
+      {
+        "id": "4836f0d6-6ddb-4ae7-b871-66cc93e1537f",
+        "name": "Front end TA1"
+      },
+      {
+        "id": "cb4dd72d-b909-4361-9329-872a07d9521d",
+        "name": "Front end TA2"
+      },
+      {
+        "id": "60eeaf08-0864-4cd1-a352-5bdaaad832d5",
+        "name": "Integrity TA1"
+      },
+      {
+        "id": "833fc592-176d-46f2-b814-7253d1976a73",
+        "name": "Execution TA1"
+      },
+      {
+        "id": "a8c052e0-2d13-4b4b-a8af-5fd2fd51e3e2",
+        "name": "Execution TA2"
+      }
+    ],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:23.1384102Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2024-01-31T10:54:20.1554049Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"ee05427d-0000-0d00-0000-65ba26dc0000\""
+  },
+  {
+    "id": "500d4b92-d4c2-4510-96a7-d135ba905ed1",
+    "name": "Kick off Meeting to develop the Well/Project Initiation Note (WIN/PIN)",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "48a93d6e-da66-4d30-9722-abb5eb3f9a13",
+          "name": "Feasability"
+        }
+      }
+    },
+    "activityId": 2,
+    "reference": "F2-0",
+    "description": "<p style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin-bottom: 0px; background-color: rgb(43, 53, 64);\">ssess&nbsp;<span style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; text-decoration-line: underline;\">impact</span>&nbsp;on&nbsp;<span style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-weight: bolder;\">organization</span>, complexity of well/project and timelines Assure that the TA structure is defined correctly based on complexity and impact of well/project</p><p style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin-bottom: 0px; background-color: rgb(43, 53, 64);\">Assess&nbsp;<span style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; text-decoration-line: underline;\">impact</span>&nbsp;on&nbsp;<span style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-weight: 700;\">organization</span>, complexity of well/project and timelines Assure that the TA structure is defined correctly based on complexity and impact of well/project</p><p style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin-bottom: 0px; background-color: rgb(43, 53, 64);\">Assess&nbsp;<span style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; text-decoration-line: underline;\">impact</span>&nbsp;on&nbsp;<span style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-weight: 700;\">organization</span>, complexity of well/project and timelines Assure that the TA structure is defined correctly based on complexity and impact of well/project df</p><p style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; background-color: rgb(43, 53, 64);\">Assess&nbsp;<span style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; text-decoration-line: underline;\">impact</span>&nbsp;on&nbsp;<span style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(14 165 233 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-weight: 700;\">organization</span>, complexity of well/project and timelines Assure that the TA structure is defined correctly based on complexity and impact of well/project</p>",
+    "type": "Meeting",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "26019147-8737-42b6-9b5e-2fbe41becb68",
+      "name": "Feasability"
+    },
+    "planned": {
+      "startDate": "2023-07-22T02:00:00Z",
+      "endDate": "2023-08-30T11:00:00Z",
+      "duration": 40
+    },
+    "actual": {
+      "endDate": "2024-02-02T08:06:08.633Z"
+    },
+    "progress": 100,
+    "next": {
+      "id": "e290eb77-bbc7-432b-b377-4b9656593bcb",
+      "name": "Well/Project Initation Note document"
+    },
+    "approval": [],
+    "dependencies": [
+      {
+        "id": "e290eb77-bbc7-432b-b377-4b9656593bcb",
+        "type": "StartToFinish",
+        "offset": "00:00:00"
+      }
+    ],
+    "raci": {
+      "accountable": [
+        {
+          "id": "970d7568-c86a-4dbb-bd74-4e693976a324",
+          "name": "Geologist/Petrophysicist 123",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        },
+        {
+          "id": "6de0f587-6e59-42f3-9955-f257a5f0ff74",
+          "name": "Finance",
+          "type": "Role"
+        },
+        {
+          "id": "f05f495a-ace2-43ae-9c82-56419f6f0932",
+          "name": "Director Drilling and Wells (TA0)",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "d2d69a39-7e91-4395-87be-48abaec009a0",
+          "name": "Head of Well Engineering (TA1)",
+          "type": "Role"
+        },
+        {
+          "id": "e2c06e31-790a-414a-9014-bae43c411382",
+          "name": "Principal Engineer - Well integrity (TA1)",
+          "type": "Role"
+        },
+        {
+          "id": "ecdeba75-2c47-4af3-bd92-4b6726b0b1b4",
+          "name": "Wells Project Manager (TA2)",
+          "type": "Role"
+        },
+        {
+          "id": "383a6add-9af3-407b-9f0a-059275e9d56c",
+          "name": "LCWE",
+          "type": "Role"
+        },
+        {
+          "id": "f022b9f8-b01a-4830-8f40-c6868a0eeab8",
+          "name": "Partners",
+          "type": "Role"
+        },
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        },
+        {
+          "id": "e6ac2cfe-a893-44f3-9574-b9433ec43803",
+          "name": "Subsurface Team Leader 2",
+          "type": "Role"
+        },
+        {
+          "id": "fba9ebc2-a520-4602-9ec5-215210d80f0b",
+          "name": "Operations Geologist",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "f05f495a-ace2-43ae-9c82-56419f6f0932",
+          "name": "Director Drilling and Wells (TA0)",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "970d7568-c86a-4dbb-bd74-4e693976a324",
+          "name": "Geologist/Petrophysicist",
+          "type": "Role"
+        },
+        {
+          "id": "fba9ebc2-a520-4602-9ec5-215210d80f0b",
+          "name": "Operations Geologist",
+          "type": "Role"
+        },
+        {
+          "id": "a2e35826-d9d5-4030-915c-6b7490f901bd",
+          "name": "Reservoir Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "6deb8d1b-b78b-4a8b-beaf-90444252b50f",
+          "name": "Geophysicist",
+          "type": "Role"
+        },
+        {
+          "id": "e6ac2cfe-a893-44f3-9574-b9433ec43803",
+          "name": "Subsurface Team Leader 2",
+          "type": "Role"
+        },
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "f05f495a-ace2-43ae-9c82-56419f6f0932",
+          "name": "Director Drilling and Wells (TA0)",
+          "type": "Role"
+        },
+        {
+          "id": "cd2a6b95-b7da-4e81-8849-26135f504379",
+          "name": "Document controller",
+          "type": "Role"
+        },
+        {
+          "id": "fbcce4e6-f7bf-470f-86c4-b322ef966791",
+          "name": "Drilling Superintendent (TA2)",
+          "type": "Role"
+        }
+      ],
+      "informed": [
+        {
+          "id": "f05f495a-ace2-43ae-9c82-56419f6f0932",
+          "name": "Director Drilling and Wells (TA0)",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "0ad91e6f-a763-455f-8bca-fa97aa94757c",
+          "name": "Procurement",
+          "type": "Role"
+        },
+        {
+          "id": "e33b3386-e948-4331-a747-d4c112b042b8",
+          "name": "HSEQ",
+          "type": "Role"
+        },
+        {
+          "id": "6de0f587-6e59-42f3-9955-f257a5f0ff74",
+          "name": "Finance",
+          "type": "Role"
+        },
+        {
+          "id": "e6ac2cfe-a893-44f3-9574-b9433ec43803",
+          "name": "Subsurface Team Leader 2",
+          "type": "Role"
+        },
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        },
+        {
+          "id": "cd2a6b95-b7da-4e81-8849-26135f504379",
+          "name": "Document controller",
+          "type": "Role"
+        },
+        {
+          "id": "fbcce4e6-f7bf-470f-86c4-b322ef966791",
+          "name": "Drilling Superintendent (TA2)",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [
+      {
+        "id": "0b0d3828-8951-4a86-844d-573bfb5543aa",
+        "name": "SME Casing and Tubing design"
+      },
+      {
+        "id": "7f092781-497f-4b14-a47f-6b3799d9da8c",
+        "name": "SME Directional Drilling and Survey Management"
+      },
+      {
+        "id": "ca718767-87a8-462d-9eb3-c2ea60ad3561",
+        "name": "SME Completions"
+      },
+      {
+        "id": "833fc592-176d-46f2-b814-7253d1976a73",
+        "name": "Execution TA1"
+      },
+      {
+        "id": "a8c052e0-2d13-4b4b-a8af-5fd2fd51e3e2",
+        "name": "Execution TA2"
+      }
+    ],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:23.1407806Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2024-02-02T08:06:08.8558222Z",
+    "lastModifiedBy": {
+      "id": "user|378e74a8-4a46-4d6c-8dc2-0ec9ec322399",
+      "name": "Utpaul Sarkar"
+    },
+    "_etag": "\"070014d3-0000-0d00-0000-65bca2700000\""
+  },
+  {
+    "id": "bb867ab8-dd84-41ce-a22d-b533e38dd190",
+    "name": "Internal Review (Prior to Feasibility Gate)",
+    "metadata": {
+      "source": {
+        "template": {
+          "id": "20034880-bfe7-4f85-aaf5-faaa599723f0",
+          "name": "PCAP Template Fast Track v3"
+        },
+        "phase": {
+          "id": "48a93d6e-da66-4d30-9722-abb5eb3f9a13",
+          "name": "Feasability"
+        }
+      }
+    },
+    "activityId": 16,
+    "reference": "F16-0",
+    "description": "The objectives of this review at the end of Feasibility stage are to;\n\n- Ensure the opportunity has been scoped appropriately\n- Validate that it fits with Corporate Strategy\n- Review the potential value and risks associated with the opportunity\n- Verify that the opportunity is commercially and technically feasible.\n\nDuring the review, the Project Manager and Team will be asked to elaborate or explain the work undertaken and provide reasons behind their recommendations. The Gate review team will make internal decision that the opportunity is;\n\n- Endorsed to present for JV partnership with recommendation to proceed to next phase\n- Placed on hold\n- Dismissed\n- Recycled back into the Feasibility stage for rework and re-submission to the Gate at a later date.",
+    "type": "Meeting",
+    "mandatory": true,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "26019147-8737-42b6-9b5e-2fbe41becb68",
+      "name": "Feasability"
+    },
+    "planned": {
+      "startDate": "2028-09-11T02:00:00Z",
+      "endDate": "2035-09-11T11:00:00Z",
+      "duration": 2557
+    },
+    "actual": {},
+    "progress": 30,
+    "approval": [],
+    "dependencies": [
+      {
+        "id": "a2364da2-9155-464c-8685-5620a8dd040e",
+        "type": "FinishToStart",
+        "offset": "00:00:00"
+      }
+    ],
+    "raci": {
+      "accountable": [
+        {
+          "id": "e6ac2cfe-a893-44f3-9574-b9433ec43803",
+          "name": "Subsurface Team Leader",
+          "type": "Role"
+        },
+        {
+          "id": "d2d69a39-7e91-4395-87be-48abaec009a0",
+          "name": "Head of Well Engineering (TA1)",
+          "type": "Role"
+        },
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        }
+      ],
+      "responsible": [
+        {
+          "id": "970d7568-c86a-4dbb-bd74-4e693976a324",
+          "name": "Geologist/Petrophysicist",
+          "type": "Role"
+        },
+        {
+          "id": "fba9ebc2-a520-4602-9ec5-215210d80f0b",
+          "name": "Operations Geologist",
+          "type": "Role"
+        },
+        {
+          "id": "a2e35826-d9d5-4030-915c-6b7490f901bd",
+          "name": "Reservoir Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "6deb8d1b-b78b-4a8b-beaf-90444252b50f",
+          "name": "Geophysicist",
+          "type": "Role"
+        },
+        {
+          "id": "ecdeba75-2c47-4af3-bd92-4b6726b0b1b4",
+          "name": "Wells Project Manager (TA2)",
+          "type": "Role"
+        },
+        {
+          "id": "383a6add-9af3-407b-9f0a-059275e9d56c",
+          "name": "LCWE",
+          "type": "Role"
+        },
+        {
+          "id": "1e9152a9-e12f-4dea-8d47-b4c1f74edcfe",
+          "name": "Asset/Project Manager",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        }
+      ],
+      "consulted": [
+        {
+          "id": "e2c06e31-790a-414a-9014-bae43c411382",
+          "name": "Principal Engineer - Well integrity (TA1)",
+          "type": "Role"
+        },
+        {
+          "id": "a1d4b72b-f644-47c9-87e2-e3fdb6dd0e2c",
+          "name": "Cost Engineer",
+          "type": "Role"
+        },
+        {
+          "id": "0ad91e6f-a763-455f-8bca-fa97aa94757c",
+          "name": "Procurement",
+          "type": "Role"
+        },
+        {
+          "id": "e33b3386-e948-4331-a747-d4c112b042b8",
+          "name": "HSEQ",
+          "type": "Role"
+        }
+      ]
+    },
+    "assurance": [
+      {
+        "id": "4836f0d6-6ddb-4ae7-b871-66cc93e1537f",
+        "name": "Front end TA1"
+      },
+      {
+        "id": "cb4dd72d-b909-4361-9329-872a07d9521d",
+        "name": "Front end TA2"
+      },
+      {
+        "id": "60eeaf08-0864-4cd1-a352-5bdaaad832d5",
+        "name": "Integrity TA1"
+      },
+      {
+        "id": "799727b7-bef2-4b77-a67c-de96dd2852d7",
+        "name": "TA0"
+      }
+    ],
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "tags": [],
+    "created": "2022-06-23T06:39:24.9905205Z",
+    "createdBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "lastModified": "2024-01-26T09:21:36.4725384Z",
+    "lastModifiedBy": {
+      "id": "service|00000000-0000-0000-0000-000000000000",
+      "name": "System"
+    },
+    "_etag": "\"e705c69e-0000-0d00-0000-65b379a00000\""
+  },
+  {
+    "id": "c624aced-a6fd-4c3f-a004-05ea2ccc8329",
+    "name": "New Activity by test",
+    "activityId": 202,
+    "description": "",
+    "type": "Task",
+    "mandatory": false,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "26019147-8737-42b6-9b5e-2fbe41becb68",
+      "name": "Feasability"
+    },
+    "planned": {
+      "startDate": "2021-08-21T02:00:00Z",
+      "endDate": "2021-08-21T11:00:00Z",
+      "duration": 1
+    },
+    "actual": {},
+    "progress": 40,
+    "raci": {},
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "created": "2024-01-17T13:11:35.0317085Z",
+    "createdBy": {
+      "id": "user|378e74a8-4a46-4d6c-8dc2-0ec9ec322399",
+      "name": "Utpaul Sarkar"
+    },
+    "lastModified": "2024-01-19T09:14:42.3639467Z",
+    "lastModifiedBy": {
+      "id": "user|0fdd1d4e-c675-4c83-ac8d-9d90edb6098d",
+      "name": "Erlend Søreide"
+    },
+    "_etag": "\"d3054708-0000-0d00-0000-65aa3d820000\""
+  },
+  {
+    "id": "3985fdd3-9548-482a-aece-4905441f49ac",
+    "name": "New Activity 2",
+    "activityId": 203,
+    "description": "<p>ttt</p>",
+    "type": "Task",
+    "mandatory": false,
+    "project": {
+      "id": "5863e10f-528a-41f5-bc0a-3b0252da63c3",
+      "name": "Cerisa"
+    },
+    "phase": {
+      "id": "26019147-8737-42b6-9b5e-2fbe41becb68",
+      "name": "Feasability"
+    },
+    "planned": {
+      "startDate": "2021-08-21T02:00:00Z",
+      "endDate": "2021-08-26T11:00:00Z",
+      "duration": 6
+    },
+    "actual": {},
+    "progress": 0,
+    "raci": {},
+    "tenantId": "225ff010-9da0-4eac-8997-0febeee9e6a7",
+    "scope": "Informatiq.Plan",
+    "created": "2024-01-17T13:18:13.20057Z",
+    "createdBy": {
+      "id": "user|378e74a8-4a46-4d6c-8dc2-0ec9ec322399",
+      "name": "Utpaul Sarkar"
+    },
+    "lastModified": "2024-01-18T11:57:03.1866977Z",
+    "lastModifiedBy": {
+      "id": "user|378e74a8-4a46-4d6c-8dc2-0ec9ec322399",
+      "name": "Utpaul Sarkar"
+    },
+    "_etag": "\"cf05cec7-0000-0d00-0000-65a9120f0000\""
+  }
+]
