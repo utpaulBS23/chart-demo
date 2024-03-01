@@ -38,21 +38,38 @@ export class AppComponent implements OnInit{
 
     public dataSources?: any;
 
-    primaryXAxis1: any = {
+    primaryXAxis: AxisModel = {
         valueType: 'DateTime',
         labelFormat: 'yMMM',
         intervalType: 'Months',
+        maximum: new Date('2033-10-05T14:00:00Z'),
+        minimum: new Date('2023-01-13T00:00:00'),
         lineStyle: { width: 1 },
+        visible: true,
         majorGridLines: { width: 0 },
         majorTickLines: { width: 1 },
         opposedPosition: true,
     };
 
-    primaryYAxis1: any = {
+    primaryXAxis1: AxisModel = {
+        valueType: 'DateTime',
+        labelFormat: 'yMMM',
+        intervalType: 'Months',
+        maximum: new Date('2033-10-05T14:00:00Z'),
+        minimum: new Date('2023-01-13T00:00:00'),
+        lineStyle: { width: 1 },
+        visible: false,
+        majorGridLines: { width: 0 },
+        majorTickLines: { width: 1 },
+        opposedPosition: true,
+    };
+
+    primaryYAxis1: AxisModel = {
         majorGridLines: { width: 2, color: '#2E3A47' },
         majorTickLines: { width: 0 },
         isInversed: true,
         interval: 1,
+        visible: false,
         edgeLabelPlacement: 'Shift',
     };
 
@@ -81,6 +98,8 @@ export class AppComponent implements OnInit{
         mode: 'X'
     };
 
+    // new Date('2023-03-13T00:00:00')
+    // new Date('2033-07-05T14:00:00Z'),
     ngOnInit(): void {
         this.dataSources = [
             {
@@ -500,6 +519,16 @@ export class AppComponent implements OnInit{
                 startDate: new Date('2023-12-21T00:00:00'),
                 endDate: new Date('2025-07-04T00:00:00'),
                 duration: 561,
+                projectTimeline: [
+                    {
+                        x: new Date('2023-12-21T00:00:00'),
+                        y: 1
+                    },
+                    {
+                        x: new Date('2025-07-04T00:00:00'),
+                        y: 1
+                    }
+                ],
                 color: '#B8B8B8',
                 phases: [
                     {
@@ -666,6 +695,16 @@ export class AppComponent implements OnInit{
                 name: 'Test project with template',
                 spudDate: {},
                 point: 1,
+                projectTimeline: [
+                    {
+                        x: new Date('2023-12-01T06:00:00'),
+                        y: 1
+                    },
+                    {
+                        x: new Date('2027-02-03T16:00:00'),
+                        y: 1
+                    }
+                ],
                 startDate: new Date('2023-12-01T06:00:00'),
                 endDate: new Date('2027-02-03T16:00:00'),
                 duration: 1160.4166666666667,
@@ -810,9 +849,168 @@ export class AppComponent implements OnInit{
                     },
                 ]
             },
+            {
+                id: '9105f7c8-ddcf-41f2-8fb1-cb72146df08a',
+                name: 'Existing Project Test 01',
+                spudDate: {},
+                projectTimeline: [
+                    {
+                        x: new Date('2023-10-07T02:00:00Z'),
+                        y: 1
+                    },
+                    {
+                        x: new Date('2033-07-05T14:00:00Z'),
+                        y: 1
+                    }
+                ],
+                startDate: new Date('2023-10-07T02:00:00Z'),
+                endDate: new Date('2033-07-05T14:00:00Z'),
+                duration: 3559.5,
+                point: 1,
+                color: '#B8B8B8',
+                phases: [
+                    {
+                        id: '4a35b94a-e9ec-4ab3-9ce1-ff9c2272286e',
+                        prefix: '',
+                        name: 'New Phase',
+                        progress: 0,
+                        date: new Date('2024-10-22T04:00:00Z'),
+                        color: '#EE7516',
+                        dateRange: [
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2024-10-22T04:00:00Z'),
+                            },
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2024-10-22T13:00:00Z')
+                            }
+                        ],
+                        progressRange: []
+                    },
+                    {
+                        id: '33b0a66a-1d3b-41ff-9295-f240c06af489',
+                        prefix: 'F',
+                        name: 'Feasability',
+                        progress: 0,
+                        date: new Date('2025-12-03T05:00:00Z'),
+                        color: '#EE7516',
+                        dateRange: [
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2025-12-03T05:00:00Z'),
+                            },
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2031-06-01T09:00:00Z')
+                            }
+                        ],
+                        progressRange: []
+                    },
+                    {
+                        id: '5df6ffeb-511d-42b9-9bb5-84edf43a48f6',
+                        prefix: 'O',
+                        name: 'Operate',
+                        progress: 0,
+                        date: new Date('2032-04-01T05:00:00Z'),
+                        color: '#EE7516',
+                        dateRange: [
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2032-04-01T05:00:00Z'),
+                            },
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2033-07-05T14:00:00Z')
+                            }
+                        ],
+                        progressRange: []
+                    },
+                    {
+                        id: 'dd0cea5f-1f2c-4bbd-9261-5bb46e3f9ee4',
+                        prefix: 'D',
+                        name: 'rferfe',
+                        progress: 0,
+                        date: new Date('2030-09-21T04:00:00Z'),
+                        color: '#EE7516',
+                        dateRange: [
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2030-09-21T04:00:00Z'),
+                            },
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2031-11-07T13:00:00Z')
+                            }
+                        ],
+                        progressRange: []
+                    },
+                    {
+                        id: 'da237b46-e3ef-4c08-964b-f4d60a1bed5d',
+                        prefix: 'E',
+                        name: 'Execute',
+                        progress: 0,
+                        date: new Date('2031-11-01T04:00:00Z'),
+                        color: '#EE7516',
+                        dateRange: [
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2031-11-01T04:00:00Z'),
+                            },
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2032-03-11T14:00:00Z')
+                            }
+                        ],
+                        progressRange: []
+                    },
+                    {
+
+                        id: 'a5e48bee-c5e1-4247-ad64-a75f0512efe4',
+                        prefix: '',
+                        name: 'New Phase by utpaul',
+                        progress: 0,
+                        date: new Date('2024-12-17T04:00:04.387Z'),
+                        color: '#EE7516',
+                        dateRange: [
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2024-12-17T04:00:04.387Z'),
+                            },
+                            {
+                                point: 1,
+                                point2: 0.8,
+                                projectName: 'Existing Project Test 01',
+                                date: new Date('2026-03-27T11:00:00Z')
+                            }
+                        ],
+                        progressRange: []
+                    }
+                ]
+            }
         ];
-        // this.marker = { visible: true, width: 10, height: 10, shape: 'InvertedTriangle' };
-        // this.title1 = 'Climate Graph-2012';
     }
 
     datasource3: any =  [{

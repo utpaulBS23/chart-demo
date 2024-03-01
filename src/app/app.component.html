@@ -1,19 +1,18 @@
 <div class="control-section">
-  <div class="row"  *ngFor="let datasource of dataSources">
+  <div class="row"  *ngFor="let datasource of dataSources; let i = index">
     <div class="col1">
-      {{ datasource?.name }}
+      {{ datasource?.name }} {{ i }}
     </div>
     <div class="col2" >
       <ejs-chart [chartArea]='chartArea'
                  [zoomSettings]='zoomSettings'
-                 [primaryXAxis]='primaryXAxis1'
+                 [primaryXAxis]='i === 0 ? primaryXAxis : primaryXAxis1'
                  [primaryYAxis]='primaryYAxis1'>
         <e-series-collection>
           <e-series [dataSource]='datasource.projectTimeline'
                     type='MultiColoredLine'
                     xName='x'
                     yName='y'
-                    name='Projects'
                     width=20
                     fill="#dedede">
           </e-series>
@@ -22,7 +21,6 @@
                       type='Line'
                       xName='date'
                       yName='point'
-                      [name]="phaseData.name"
                       width=20>
             </e-series>
             <e-series [dataSource]='phaseData.dateRange'
