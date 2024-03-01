@@ -1,60 +1,53 @@
-<div class="height">
-  <ejs-chart [chartArea]='chartArea'
-             [primaryXAxis]='xAxis'
-             [primaryYAxis]='yAxis'
-             [tooltip]='tooltip'
-             [zoomSettings]='zoom'
-             [title]="title"
-             height="100%"
-             #chart
-             isTransposed='false'>
-    <e-series-collection>
-      <e-series [dataSource]='datasource'
-                type='RangeColumn'
-                high='endDate'
-                low='startDate'
-                columnWidth="0.4"
-                pointColorMapping= 'color'
-                name='Project'
-                xName="name">
-      </e-series>
-
-      <ng-container *ngFor="let item of datasource">
-        <ng-container *ngFor="let phaseData of item?.phases; trackBy:identify">
-          {{ phaseData }}
-          <e-series [dataSource]='phaseData.dateRange'
-                    type='Line'
-                    xName='projectName'
-                    yName='date'
-                    width=14
-                    opacity= 0.4
-                    [name]='phaseData.name'>
+<div class="control-section">
+  <div class="row"  *ngFor="let datasource of dataSources">
+    <div class="col1">
+      {{ datasource?.name }}
+    </div>
+    <div class="col2" >
+      <ejs-chart [chartArea]='chartArea'
+                 [zoomSettings]='zoomSettings'
+                 [primaryXAxis]='primaryXAxis1'
+                 [primaryYAxis]='primaryYAxis1'>
+        <e-series-collection>
+          <e-series [dataSource]='datasource.projectTimeline'
+                    type='MultiColoredLine'
+                    xName='x'
+                    yName='y'
+                    name='Projects'
+                    width=20
+                    fill="#dedede">
           </e-series>
-          <ng-container *ngIf="phaseData?.progressRange">
+          <ng-container *ngFor="let phaseData of datasource?.phases">
+            <e-series [dataSource]='phaseData.dateRange'
+                      type='Line'
+                      xName='date'
+                      yName='point'
+                      [name]="phaseData.name"
+                      width=20>
+            </e-series>
+            <e-series [dataSource]='phaseData.dateRange'
+                      type='Scatter'
+                      xName='date'
+                      yName='point2'
+                      fill='#EE7516'
+                      [marker]='marker1'>
+            </e-series>
             <e-series [dataSource]='phaseData?.progressRange'
                       type='Line'
-                      xName='projectName'
-                      yName='date'
-                      width=6>
+                      xName='date'
+                      yName='point'
+                      width=10>
             </e-series>
           </ng-container>
-          <e-series [dataSource]='phaseData?.dateRange'
+          <e-series [dataSource]='datasource.milestones'
                     type='Scatter'
-                    xName='projectName'
-                    yName='date'
-                    width=2
-                    [marker]='markerVerticalLine'
-                    fill="yellow">
+                    xName='x'
+                    yName='point'
+                    [marker]='markerCircle'
+                    fill="red">
           </e-series>
-        </ng-container>
-        <e-series [dataSource]='item.milestones'
-                  type='Scatter'
-                  xName='projectName'
-                  yName='startDate'
-                  [marker]='markerCircle'
-                  fill="#52CB99">
-        </e-series>
-      </ng-container>
-    </e-series-collection>
-  </ejs-chart>
+        </e-series-collection>
+      </ejs-chart>
+    </div>
+  </div>
 </div>

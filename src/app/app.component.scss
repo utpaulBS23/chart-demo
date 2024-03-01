@@ -1,3 +1,31 @@
 .height {
   height: 1600px;
 }
+
+.control-section{
+  margin-top: 100px;
+  width: 80%;
+  margin-left: 60px;
+}
+
+#control-container {
+  padding: 1px !important;
+}
+
+.row {
+  display: flex;
+}
+
+
+.col1 {
+  width: 15%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col2 {
+  width: 85%;
+  height: 220px;
+}
