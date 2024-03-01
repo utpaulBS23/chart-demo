@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, OnInit, QueryList, ViewChild, ViewChildren } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {
     AxisModel,
@@ -28,15 +28,20 @@ import { synchronizedData } from './financial-data';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit, AfterViewInit{
 
+    @ViewChildren(ChartComponent) chartComponents!: QueryList<ChartComponent>;
     chartArea: ChartAreaModel = {
         border: {
             width: 0
         }
     };
 
+    public zoomFactor: number = 0;
+    public zoomPosition: number = 0;
+
     public dataSources?: any;
+    public charts: ChartComponent[] = [];
 
     primaryXAxis: AxisModel = {
         valueType: 'DateTime',
@@ -45,7 +50,6 @@ export class AppComponent implements OnInit{
         maximum: new Date('2033-10-05T14:00:00Z'),
         minimum: new Date('2023-01-13T00:00:00'),
         lineStyle: { width: 1 },
-        visible: true,
         majorGridLines: { width: 0 },
         majorTickLines: { width: 1 },
         opposedPosition: true,
@@ -1015,6 +1019,33 @@ export class AppComponent implements OnInit{
                 ]
             }
         ];
+    }
+
+    ngAfterViewInit() {
+        // Access the ejs-chart instances after the view has been initialized
+        this.chartComponents.forEach(chart => {
+            // Do something with each ejs-chart instance, for example:
+            this.charts.push(chart);
+        });
+    }
+
+    public zoomComplete(args: IZoomCompleteEventArgs): void {
+        if (args.axis.name === 'primaryXAxis') {
+            this.zoomFactor = args.currentZoomFactor;
+            this.zoomPosition = args.currentZoomPosition;
+            this.zoomCompleteFunction(args);
+        }
+    };
+
+    public zoomCompleteFunction(args: any): void {
+        for (let i: number = 0; i < this.charts.length; i++) {
+            if (args.axis.series[0].chart.element.id !== this.charts[i].element.id) {
+                this.charts[i].primaryXAxis.zoomFactor = this.zoomFactor;
+                this.charts[i].primaryXAxis.zoomPosition = this.zoomPosition;
+                this.charts[i].zoomModule.isZoomed = args.axis.series[0].chart.zoomModule.isZoomed;
+                this.charts[i].zoomModule.isPanning = args.axis.series[0].chart.zoomModule.isPanning;
+            }
+        }
     }
 
     // datasource3: any =  [{

@@ -7,6 +7,7 @@
       <div class="col2" >
         <ejs-chart [chartArea]='chartArea'
                    [zoomSettings]='zoomSettings'
+                   (zoomComplete)='zoomComplete($event)'
                    [primaryXAxis]='i === 0 ? primaryXAxis : primaryXAxis1'
                    [primaryYAxis]='primaryYAxis1'>
           <e-series-collection>
