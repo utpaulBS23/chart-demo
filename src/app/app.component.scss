@@ -1,31 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .height {
   height: 1600px;
 }
-
 .control-section{
-  margin-top: 100px;
-  width: 80%;
-  margin-left: 60px;
+  max-width: 90%;
+  margin: 24px 40px;
+  padding:  0 15px;
+  border: 1px solid #3B4958;
+  .row:not(:last-child) {
+    border-bottom: 1px solid #3B4958;
+  }
 }
-
 #control-container {
   padding: 1px !important;
 }
-
 .row {
   display: flex;
 }
-
-
 .col1 {
   width: 15%;
   height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 15px;
+  border-right: 1px solid #3B4958;
 }
-
 .col2 {
   width: 85%;
   height: 120px;
+  padding: 0 15px;
 }
