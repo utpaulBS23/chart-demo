@@ -66,14 +66,6 @@ export class AppComponent implements OnInit, AfterViewInit{
         valueType: 'DateTime',
         labelFormat: 'yMMM',
         intervalType: 'Months',
-        scrollbarSettings: {
-            enable: false,
-            scrollbarColor: '#C6D1DC',
-            scrollbarRadius: 8,
-            gripColor: '#C6D1DC',
-            trackRadius: 8,
-            height: 10
-        },
         maximum: new Date('2033-10-05T14:00:00Z'),
         minimum: new Date('2023-01-13T00:00:00'),
         lineStyle: { width: 1 },
@@ -92,14 +84,16 @@ export class AppComponent implements OnInit, AfterViewInit{
         edgeLabelPlacement: 'Shift',
     };
 
-    marker1: Object = {
-        shape: 'InvertedTriangle',
+    marker1: MarkerSettingsModel = {
+        shape: 'Diamond',
         width: 10,
         height: 10
     };
 
+    tooltip = { enable: true };
+
     markerCircle: MarkerSettingsModel = {
-        shape: 'Circle',
+        shape: 'Diamond',
         width: 22,
         height: 22
     };
@@ -109,12 +103,11 @@ export class AppComponent implements OnInit, AfterViewInit{
         enablePinchZooming: true,
         enableScrollbar: false,
         enableDeferredZooming: true,
+        enableSelectionZooming: true,
         enablePan: true,
         mode: 'X'
     };
 
-    // new Date('2023-03-13T00:00:00')
-    // new Date('2033-07-05T14:00:00Z'),
     ngOnInit(): void {
         this.dataSources = [
             {
@@ -1631,6 +1624,8 @@ export class AppComponent implements OnInit, AfterViewInit{
             if (args.axis.series[0].chart.element.id !== this.charts[i].element.id) {
                 this.charts[i].primaryXAxis.zoomFactor = this.zoomFactor;
                 this.charts[i].primaryXAxis.zoomPosition = this.zoomPosition;
+                this.charts[i].zoomSettings.toolbarItems = [];
+                this.charts[i].zoomSettings.showToolbar = true;
                 this.charts[i].zoomModule.isZoomed = args.axis.series[0].chart.zoomModule.isZoomed;
                 this.charts[i].zoomModule.isPanning = args.axis.series[0].chart.zoomModule.isPanning;
             }

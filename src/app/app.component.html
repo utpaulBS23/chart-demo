@@ -7,6 +7,7 @@
       <div class="col2" >
         <ejs-chart [chartArea]='chartArea'
                    [zoomSettings]='zoomSettings'
+                   [tooltip]="tooltip"
                    (zoomComplete)='zoomComplete($event)'
                    [primaryXAxis]='i === 0 ? primaryXAxis : primaryXAxis1'
                    [primaryYAxis]='primaryYAxis1'>
@@ -15,7 +16,7 @@
                       type='MultiColoredLine'
                       xName='x'
                       yName='y'
-                      width=20
+                      width=5
                       fill="#dedede">
             </e-series>
             <ng-container *ngFor="let phaseData of datasource?.phases">
@@ -23,15 +24,15 @@
                         type='Line'
                         xName='date'
                         yName='point'
-                        width=20>
+                        width=5>
               </e-series>
-              <e-series [dataSource]='phaseData.dateRange'
-                        type='Scatter'
-                        xName='date'
-                        yName='point2'
-                        fill='#EE7516'
-                        [marker]='marker1'>
-              </e-series>
+<!--              <e-series [dataSource]='phaseData.dateRange'-->
+<!--                        type='Scatter'-->
+<!--                        xName='date'-->
+<!--                        yName='point2'-->
+<!--                        fill='#EE7516'-->
+<!--                        [marker]='marker1'>-->
+<!--              </e-series>-->
               <e-series [dataSource]='phaseData?.progressRange'
                         type='Line'
                         xName='date'
