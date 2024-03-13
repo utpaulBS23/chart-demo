@@ -99,13 +99,12 @@ export class AppComponent implements OnInit, AfterViewInit{
     };
 
     zoomSettings: ZoomSettingsModel = {
-        enableMouseWheelZooming: true,
-        enablePinchZooming: true,
-        enableScrollbar: false,
-        enableDeferredZooming: true,
-        enableSelectionZooming: true,
-        enablePan: true,
-        mode: 'X'
+        // enableMouseWheelZooming: true,
+        // enablePinchZooming: true,
+        // enableScrollbar: false,
+        // enableDeferredZooming: true,
+      enableSelectionZooming: true,
+      mode: 'X'
     };
 
     ngOnInit(): void {
@@ -1624,10 +1623,12 @@ export class AppComponent implements OnInit, AfterViewInit{
             if (args.axis.series[0].chart.element.id !== this.charts[i].element.id) {
                 this.charts[i].primaryXAxis.zoomFactor = this.zoomFactor;
                 this.charts[i].primaryXAxis.zoomPosition = this.zoomPosition;
-                this.charts[i].zoomSettings.toolbarItems = [];
-                this.charts[i].zoomSettings.showToolbar = true;
                 this.charts[i].zoomModule.isZoomed = args.axis.series[0].chart.zoomModule.isZoomed;
                 this.charts[i].zoomModule.isPanning = args.axis.series[0].chart.zoomModule.isPanning;
+            }
+
+            if (i !== 0) {
+              this.charts[i].zoomSettings.toolbarItems = [];
             }
         }
     }
